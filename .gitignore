@@ -1,0 +1,21 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore system-specific files
+__pycache__/
+*.pyo
+*.egg-info/
+dist/
+build/
+*.db
+
+# Ignore environment-specific files
+.env
+
+# Ignore project-specific files or directories
+venv/
+*.log
+# Ignore Excel and CSV files
+*.xlsx
+*.xls
+*.csv
